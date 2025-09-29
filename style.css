@@ -1,88 +1,21 @@
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-  }
+body{
+  text-align: center;
+  padding: 50px;
+  
+}
 
-  body {
-    font-family: 'Segoe UI', sans-serif;
-    line-height: 1.6;
-    background-color: #99ddce;
-    color: #333;
-    padding: 20px;
-  }
+.container{
+  text-align: left;
+}
 
-  header {
-    box-shadow: 5px 5px 10px rgb(21, 70, 78);
-    margin-bottom: 50px;
-    background-color : #278f8f;
-    color: #ffffff;
-    border-radius: 20px;
-    width: 600px;
-    text-align: center;
-    margin-left: 350px;
-  }
+.painel{
+  color: blue;
+  
+}
 
-  header h1 {
-    font-size: 2.5em;
-    margin-bottom: 0.2em;
-  }
+.toggle-painel{
+  background-color: #ccc8c8;
+  border-radius: 20px;
+  box-shadow: 0 30px 50px #232323;
 
-  header p {
-    color: #bab9b9;
-    font-size: 1.2em;
-  }
-
-  section {
-    box-shadow: 5px 5px 10px rgb(21, 70, 78);
-    border-radius: 10px;
-    color: #eaeaea;
-    background-color : #278f8f;
-    max-width: 800px;
-    margin: 0 auto 60px auto;
-  }
-
-  h2 {
-    border-bottom: 2px solid #eaeaea;
-    padding-bottom: 5px;
-    margin-bottom: 20px;
-    color: #ffffff;
-  }
-
-  .projects article {
-    margin-bottom: 30px;
-  }
-
-  .projects h3 {
-    margin-bottom: 5px;
-  }
-
-  .projects p {
-    color: #c5c1c1;
-  }
-
-  .contact a {
-    color: #2d2f83;
-    text-decoration: none;
-  }
-
-  .contact a:hover {
-    text-decoration: underline;
-  }
-
-  footer {
-    text-align: center;
-    color: #000076;
-    font-size: 0.9em;
-    margin-top: 40px;
-  }
-
-  @media (max-width: 600px) {
-    body {
-      padding: 10px;
-    }
-
-    header h1 {
-      font-size: 2em;
-    }
-  }
+}

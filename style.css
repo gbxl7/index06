@@ -1,21 +1,64 @@
-body{
+
+.holographic-container {
+  display: flex;
   text-align: center;
-  padding: 50px;
-  
+  align-items: center;
+  height: 100vh;
+  backdrop-filter: blur(5.5px);
+  box-shadow: 0 1px 20px #232322;
+}
+
+.holographic-card {
+  margin-left: 500px;
+ 
+  width: 690px;
+  height: 500px;
+  backdrop-filter: blur(5.5px);
+  display: flex;
+  text-align: center;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+  border-radius: 15px;
+  transition: all 0.5s ease;
+}
+
+.holographic-card h2 {
+  color: rgb(0, 0, 0);
+  font-size: 2rem;
+  position: relative;
+  z-index: 2;
+}
+
+
+
+.holographic-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 5 32px #000000;
+}
+
+.holographic-card:hover::before {
+  opacity: 1;
+  transform: rotate(-45deg) translateY(100%);
+}
+
+body{
+  background-image: linear-gradient(to right, #7777ff, #8ed0ff, #153588);
+}
+
+.toggle-painel{
+  background-color: rgba(15, 89, 89, 0);
+  color: #000000;
+  border-radius: 15px;
+  box-shadow: 0 1px 20px #232322;
+  text-align: center;
 }
 
 .container{
   text-align: left;
 }
 
-.painel{
-  color: blue;
-  
-}
-
-.toggle-painel{
-  background-color: #ccc8c8;
-  border-radius: 20px;
-  box-shadow: 0 30px 50px #232323;
-
+img{
+  border-radius: 10px;
+  box-shadow: 0 1px 20px #232322;
 }
